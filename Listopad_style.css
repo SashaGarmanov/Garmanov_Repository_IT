@@ -1,0 +1,198 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+html {
+ height: 100%;
+}
+body {
+ line-height: 1;
+ background: url(https://вологда.рф/upload/iblock/c13/22.jpg); 
+ background-position: top;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ backdrop-filter: blur(10px);
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+* {
+	color: #333;
+	list-style-type: none;
+	transition: .15s;
+}
+
+b {
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 150%;
+	font-weight: 900;
+}
+h2 {
+	font-size: 140%;
+	font-weight: 800;
+}
+h3 {
+	font-size: 130%;
+	font-weight: 700;
+}
+h4 {
+	font-size: 120%;
+	font-weight: 600;
+}
+h5 {
+	font-size: 110%;
+	font-weight: 500;
+}
+
+header{
+	font-weight: 3;
+	text-align: center;
+	font-size: 140%;
+	background-color: #524b39;
+	width: 98%;
+	max-height: 70px;
+	padding: 1%;
+}
+
+header h2 {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	font-size: 100%;
+	margin: auto;
+}
+
+a:hover {
+	font-size: 102%;
+	text-decoration: underline;
+}
+
+main{
+	display: flex;
+	height: 100%;
+}
+
+aside{
+	background-color: #EDEBED;
+	width: 240px;
+	height: 350px;
+	padding: 24px;
+	font-size: 21px;
+	margin-left: auto;
+}
+
+aside nav{
+	height: 50%;
+}
+
+aside h4{
+	margin-bottom: 24px;
+}
+
+aside ul{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between
+}
+
+aside li{
+	display: flex;
+}
+
+article{
+	background-color: #EDEBED;
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin: 0 auto 0 16px;
+	padding: 16px;
+	height: 100%;
+	font-size: 21px;
+	text-align: justify;
+}
+
+article p {
+	margin-bottom: 16px;
+}
+
+article li, ol, ul {
+	margin: 0;
+}
+
+section {
+	margin-bottom: 16px;
+	height: 256px;
+	padding: 16px;
+	display: flex;
+	background-color: #F5FFFA;
+}
+
+section img {
+	width: 25%;
+	border-radius: 16px;
+}
+
+section .shot_info {
+	margin: 0 auto 0 auto;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+}
+
+section a {
+	margin: 0 0 10px 0;
+}
+
+.text {
+	width: 47%;
+	margin: 0 36px 0 auto;
+}
+
+.images {
+	width: 47%;
+	margin-right: auto;
+}
+
+.images img {
+	width: 100%;
+}
